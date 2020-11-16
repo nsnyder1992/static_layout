@@ -89,7 +89,6 @@ a:hover{
 .grow:hover { transform: scale(1.1); }
 
 .orangebtn:hover{
-    font-size: 14px;
     font-weight: bold;
     transform: scale(1.01);
 }    
