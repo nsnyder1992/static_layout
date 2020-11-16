@@ -9,28 +9,36 @@ body {
 
 a {
     text-decoration: none;
-    font-size: 7px;
+    font-size: 14px;
     color: black;
 }
 
 p {
-    font-size: 7px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 45px;
 }
 
 .biggest-text{
-    font-size: 9px;
+    font-size: 22px;
 }
 
 .bigger-text{
-    font-size: 8px;
+    font-size: 20px;
+}
+
+.text {
+    font-size: 18px;
 }
 
 .smaller-text {
-    font-size: 6px;
+    font-size: 14px;
 }
 
 .smallest-text {
-    font-size: 5px;
+    font-size: 12px;
 }
 
 .bold-text {
@@ -41,11 +49,11 @@ p {
     background-color: orange;
     color: white;
     border: none;
-    font-size: 7px;
+    font-size: 18px;
     font-weight: bold;
-    min-width: 70px;
-    padding: 5px 25px;
-    border-radius: 1px;
+    min-width: 175px;
+    padding: 10px 50px;
+    border-radius: 2px;
     transition: all .2s ease-in-out; 
 }
 
@@ -81,7 +89,7 @@ a:hover{
 .grow:hover { transform: scale(1.1); }
 
 .orangebtn:hover{
-    font-size: 7px;
+    font-size: 14px;
     font-weight: bold;
     transform: scale(1.01);
 }    
@@ -98,7 +106,7 @@ Nav Bar
     /* float: left; */
     color: white;
     width: 100%;
-    height: 33px;
+    height: 75px;
     background-color: transparent;
 }
 
@@ -107,26 +115,25 @@ Nav Bar
 }
 
 .kasticon {
-    width: 75px;
-    margin-left: 10px;
+    width: 150px;
+    margin-left: 20px;
 }
 
 #kasticon {
     position: relative;
-    top: -0;
-    width: 75px;
-    height: 30px;
+    width: 150px;
+    height: 60px;
 }
 
 .menu {
     position: relative;
-    top: -40px;
+    top: -60px;
     float: right;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .dropbtn {
-    font-size: 7px;
+    font-size: 17px;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -151,23 +158,24 @@ Nav Bar
 .dropdown {
     position: relative;
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    padding: 5px 5px 5px 5px;
-    min-width: 85px;
+    margin-top: 12px;
+    padding: 20px 0px 20px 20px;
+    min-width: 245px;
     z-index: 1;
-    border-radius: 1px;
+    border-radius: 3px;
     background-color: white;
     color: black;
 }
 
 .dropdown-link {
     color: grey;
-    margin: 2px;
+    margin: 8px;
 }
 
 .dropdown-content a:hover {
@@ -181,20 +189,20 @@ Nav Bar
 }  */
 
 .navbtn {
-    font-size: 6px;
-    padding: 1px;
+    font-size: 10px;
+    padding: 2px;
     background-color: transparent;
-    border: 1px solid white;
+    border: 2px solid white;
     text-align: center;
     color: white;
-    border-radius: 1px;
+    border-radius: 2px;
     justify-self: end;
     transition: all .2s ease-in-out; 
 }
 
 .navlink {
     color: white;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .show {
@@ -213,11 +221,11 @@ Division 1
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
-    height: 385px;
+    padding-bottom: 100px;
 }
 
 .laptop {
-    margin-top: 60px;
+    margin-top: 150px;
     /* width: 250px;
     height: 150px;
     background-image: url('https://www.kastapp.co/images/laptop-large-p-800.png');
@@ -230,8 +238,11 @@ Division 1
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 210px;
+    width: 540px;
+    padding-bottom: 25px;
 }
+
+
 
 
 /*------------------------------------------------------------------------------------------------------------------------
@@ -245,17 +256,17 @@ Division 2
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 85px;
 }
 
 .container {
     display: grid;
     width: 100%;
-    grid-template-columns: 3% 1fr 1fr 1fr 3%;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
     grid-template-rows: auto;
-    column-gap: 40px;
-    row-gap: 35px;
-    margin: 10px auto 10px;
+    column-gap: 100px;
+    row-gap: 75px;
+    margin: 25px auto 70px;
     align-items: center;
     justify-items: center;
 }
@@ -296,7 +307,7 @@ Division 2
 .quote-box {
     display: flex;
     flex-direction: column;
-    margin-bottom: 45px;
+    margin-bottom: 100px;
 }
 
 .quote {
@@ -307,7 +318,7 @@ Division 2
 .quote-right {
     font-style: italic;
     font-weight: lighter;
-    font-size: 6px;
+    font-size: 16px;
     align-self: flex-end;
     color: rgb(94, 92, 92);
 }
@@ -324,8 +335,8 @@ Division 3
     background-size: cover;
     width: 100%;
     height: auto;
-    padding-top: 20px;
-    padding-bottom: 45px;
+    padding-top: 75px;
+    padding-bottom: 150px;
 }
 
 .wrapper3 .wordwrap {
@@ -333,8 +344,8 @@ Division 3
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 280px;
-    margin-bottom: 10px;
+    width: 720px;
+    margin-bottom: 5px;
     font-size: 10px;
 }
 
@@ -347,26 +358,35 @@ Division 4
     align-items: center;
     background-color: white;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 75px;
     padding-bottom: 30px;
 }
 
-.wrapper4 h3 {
-    margin-bottom: 10px;
-}
+/* .wrapper4 h1 {
+    margin-bottom: 50px;
+} */
 
 .wrapper4 .wordwrap {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 265px;
+    width: 700px;
     margin-bottom: 10px;
     font-size: 10px;
 }
 
+.wrapper4 iframe{
+    width: 900px;
+    height: 450px;
+}
+
+.wrapper4 h6 {
+    margin: 75px 0px 25px
+}
+
 .wrapper4 a{
-    margin-top: 15px;
+    margin-top: 50px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------
@@ -378,14 +398,14 @@ Division 5
     align-items: center;
     background-color: rgb(66, 66, 71);
     width: 100%;
-    padding-top: 17px;
-    padding-bottom: 30px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
-.wrapper5 h5 {
-    margin-bottom: 15px;
+.wrapper5 h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
 }
-
 
 .card-holder {
     display: flex;
@@ -394,7 +414,7 @@ Division 5
     justify-content: center;
     width: 75%;
     margin-top: 0px;
-    margin-bottom: 7px;
+    margin-bottom: 35px;
 }
 
 .dark-grey-card {
@@ -402,9 +422,9 @@ Division 5
     flex-direction: column;
     align-items: center;
     background-color: rgb(41, 39, 46);
-    margin: 5px;
-    padding: 5px;
-    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .dark-grey-card .wordwrap {
@@ -412,17 +432,17 @@ Division 5
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 90px;
+    width: 210px;
     font-size: 10px;
 }
 
 .card-img {
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
 }
 
 .wrapper5 a {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------
@@ -434,8 +454,8 @@ Division 6
     align-items: center;
     background-color: white;
     width: 100%;
-    padding-top: 35px;
-    padding-bottom: 45px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .wrapper6 .wordwrap {
@@ -443,7 +463,7 @@ Division 6
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 175px;
+    width: 500px;
     margin-bottom: 25px;
 }
 
@@ -455,12 +475,12 @@ Division 6
 }
 
 .img-box img {
-    width: 110px;
-    margin: 0px 4px 25px;
+    width: 275px;
+    margin: 0px 10px 65px;
 }
 
 .wrapper6 button {
-    margin-top: 12px;
+    margin-top: 30px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------
@@ -473,8 +493,8 @@ Footer
     align-content: center;
     background-color: rgb(20, 148, 137);
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 0px;
 }
 
@@ -485,28 +505,28 @@ Footer
     grid-template-rows: auto;
     column-gap: 0px;
     row-gap: 0px;
-    margin: 0px 0px 10px 25px;
+    margin: 0px 0px 25px 75px;
 }
 
 .footer-links a{
-    margin-bottom: 7px;
+    margin-bottom: 15px;
 }
 
 .footer-links p {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .social-media-icons {
-    margin-top: 25px;
+    margin-top: 40px;
     align-self: center;
 }
 
 .social-media-icons i{
     color: white;
-    margin: 0px 3px;
+    margin: 0px 10px;
 }
 
 #copyright {
     align-self: center;
-    margin-top: 15px;
+    margin-top: 35px;
 }
