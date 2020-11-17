@@ -167,6 +167,7 @@ Nav Bar
     padding: 20px 0px 20px 20px;
     min-width: 245px;
     z-index: 1;
+    border: 1px solid rgba(64, 100, 98, 0.4);
     border-radius: 3px;
     background-color: white;
     color: black;
